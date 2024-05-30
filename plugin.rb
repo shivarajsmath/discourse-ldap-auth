@@ -5,10 +5,10 @@
 
 enabled_site_setting :ldap_enabled
 
-gem 'pyu-ruby-sasl', '0.0.3.3', require: false path: "./vendor/bundle"
-gem 'rubyntlm', '0.3.4', require: false path: "./vendor/bundle"
-gem 'net-ldap', '0.17.1' path: "./vendor/bundle"
-gem 'omniauth-ldap', '1.0.5' path: "./vendor/bundle"
+gem 'pyu-ruby-sasl', '0.0.3.3', require: false , path: "./vendor/bundle"
+gem 'rubyntlm', '0.3.4', require: false , path: "./vendor/bundle"
+gem 'net-ldap', '0.17.1' , path: "./vendor/bundle"
+gem 'omniauth-ldap', '1.0.5', path: "./vendor/bundle"
 
 require 'yaml'
 require_relative 'lib/ldap_user'
